@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.source = {:git => 'https://github.com/soffes/HotKey.git', :tag => "v#{spec.version}"}
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
-  spec.osx.deployment_target = '10.13'
+  spec.osx.deployment_target = '10.12'
   spec.swift_version = '5.0'
 
   spec.frameworks = 'AppKit', 'Carbon'
